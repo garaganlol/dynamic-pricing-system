@@ -156,7 +156,7 @@ Parquet обеспечивает компактное хранение, сохр
 ### Основные модели (будут протестированы)
 - **LightGBM / CatBoost** — градиентный бустинг над табличными признаками.
 - **SARIMA** / **Prophet** — для сравнения с классическими временными рядами.
-- **LSTM / N-BEATS** (опционально) — глубокое обучение для временных рядов.
+- **LSTM**  — глубокое обучение для временных рядов.
 
 ### Метрики
 - MAE, RMSE, WAPE, sMAPE.
@@ -197,7 +197,7 @@ Parquet обеспечивает компактное хранение, сохр
 ### Установка
 
 ```bash
-git clone https://github.com/<username>/dynamic-pricing-system.git
+git clone https://github.com/garaganlol/dynamic-pricing-system.git
 cd dynamic-pricing-system
 python -m venv .venv
 
