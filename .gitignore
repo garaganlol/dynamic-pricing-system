@@ -225,3 +225,9 @@ __marimo__/
 
 # Git LFS указатели (сами файлы LFS не игнорируем!)
 *.lfs.*
+
+# MLflow
+mlruns/
+
+# Catboost
+catboost_info/
